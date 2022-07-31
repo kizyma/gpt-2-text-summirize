@@ -10,9 +10,9 @@ works with English, Ukrainian and Russian (and a few other languages too, it`s G
 
 def start_fn(article_input: str) -> str:
     """
-    GPT-2 based solution, input full text, output summirized text
+    GPT-2 based solution, input full text, output summarized text
     :param article_input:
-    :return:
+    :return summarized article_output:
     """
     GPT2_model = TransformerSummarizer(transformer_type="GPT2", transformer_model_key="gpt2-medium")
     full = ''.join(GPT2_model(article_input, min_length=60))
