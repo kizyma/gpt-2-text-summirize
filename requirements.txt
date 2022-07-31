@@ -1,0 +1,7 @@
+gradio
+transformers
+pysummarization==1.1.8
+bert-extractive-summarizer
+sacremoses
+torch
+sentencepiece
