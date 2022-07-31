@@ -4,7 +4,7 @@ from summarizer import TransformerSummarizer
 title = "Summarizer"
 description = """
 This demo is GPT-2 based Summarizer, 
-works with English, Ukrainian and Russian (and a few other languages too, it`s GPT-2 after all.
+works with English, Ukrainian and Russian (and a few other languages too, it`s GPT-2 after all).
 """
 
 
