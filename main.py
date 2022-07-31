@@ -25,5 +25,5 @@ face = gr.Interface(fn=start_fn,
                                                                                                      'Article'),
                     title=title,
                     description=description,
-                    server_name="0.0.0.0")
-face.launch()
+                    share=True)
+face.launch(server_name="0.0.0.0")
