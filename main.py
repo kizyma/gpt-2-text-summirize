@@ -24,6 +24,5 @@ face = gr.Interface(fn=start_fn,
                     outputs=gr.inputs.Textbox(lines=2, placeholder="Summarized article here.", label='Summarized '
                                                                                                      'Article'),
                     title=title,
-                    description=description,
-                    share=True)
-face.launch(server_name="0.0.0.0")
+                    description=description,)
+face.launch(server_name="0.0.0.0", share=True)
